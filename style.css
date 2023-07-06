@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-container{
+    display: flex;
+    background-color: rgb(38, 37, 37);
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.logo{
+    width: 150px;
+}
+.head-ol>ol{
+    display: flex;
+    list-style: none;
+}
+.list{
+    margin: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url(images/background.png),
+    linear-gradient(45deg,#3c3a3a,#292323);
+}
+.bannar{
+    width: 300px;
+}
+.main-text{
+    font-weight: bolder;
+    color: white;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+.pera{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.about-h{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.about-log{
+    width: 300px;
+}
+.pera1{
+    margin-top: 10px;
+}
+.service-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+   
+  
+
+}
+.service-content0{
+    background-color:rgb(39, 38, 38);
+    height: 80vh;
+ 
+}
+.icon{
+    height:60px;
+    width: 60px;
+}
+.service-content1{
+    margin: 10px;
+    height: 260px;
+    width: 200px;
+    border: 2px solid rgb(26, 26, 26);
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px gray;
+}
+.btn2{
+    height: 30px;
+    width: 80px;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.service-head{
+    text-align: center;
+    color: white;
+   font-size: 35px;
+
+}
