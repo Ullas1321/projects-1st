@@ -117,3 +117,34 @@ a{
    font-size: 35px;
 
 }
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(27, 26, 26);
+    padding: 50px;
+    color: white;
+}
+
+.foot-div{
+    height: auto;
+    width: 300px;
+}
+.foot-div ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+.foot-div ul li{
+    list-style: none;
+}
+.foot-img{
+     width: 120px;
+}
+.f-ul{
+    font-size: 10px;
+}
+.f-p{
+    font-size: 10px;
+}
